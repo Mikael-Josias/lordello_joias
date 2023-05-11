@@ -1,0 +1,26 @@
+.divMain {
+  background-color: transparent;
+  color: #fff;
+  z-index: 1000;
+  transition: all .25s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .divMain {
+    background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
+  }
+}
+
+.divMain.scroll {
+  background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
+}
+
+@media screen and (max-width: 768px) {
+  .divBtn {
+    width: 100%;
+  }
+}
+
+.nav li {
+  cursor: pointer;
+}

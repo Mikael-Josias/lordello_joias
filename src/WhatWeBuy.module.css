@@ -1,0 +1,13 @@
+.divMain {
+  margin: 92px 0;
+}
+
+.divMain h2 {
+  color: #282828;
+  margin-bottom: 12px;
+}
+
+.divMain h2+p {
+  color: #282828;
+  margin-bottom: 24px;
+}

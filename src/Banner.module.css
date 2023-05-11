@@ -1,0 +1,73 @@
+.banner {
+  background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
+  min-width: calc(100vw - 17px);
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.divMain {
+  /* height: 100%; */
+  padding-top: 104px;
+}
+
+.divText {
+  color: #fff;
+}
+
+@media screen and (max-width:992px) {
+  .divText {
+    text-align: center;
+  }
+}
+
+.divText h2 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width:992px) {
+  .divText h2 {
+    font-size: 2rem;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.divText span {
+  color: #2AA654;
+  font-size: 4rem;
+}
+
+@media screen and (max-width:992px) {
+  .divText span {
+    color: #2AA654;
+    font-size: 2.25rem;
+    display: block;
+  }
+}
+
+.divText p {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width:992px) {
+  .divText p {
+    margin-bottom: 24px;
+  }
+}
+
+
+.btnScrollDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #DB9328;
+}
+
+.btnScrollDown span {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,12 @@
+.btnOrange {
+  background-color: #DB9328 !important;
+  color: #242424 !important;
+  font-weight: 700 !important;
+}
+
+.btnOrange:hover {
+  background-color: #C9841E !important;
+  color: #242424 !important;
+}
+
+.btnOrange img {}
