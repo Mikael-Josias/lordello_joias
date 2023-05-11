@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import ButtonCustom from './ButtonCustom';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Header = () => {
   const [isTop, setIsTop] = React.useState(true);
@@ -47,10 +48,58 @@ const Header = () => {
             <ul
               className={`${styles.nav} navbar-nav mb-3 mb-md-0 my-4 my-md-0 d-flex justify-content-between align-items-center gap-3`}
             >
-              <li className="nav-item">O que Compramos?</li>
-              <li className="nav-item">Como funciona?</li>
-              <li className="nav-item">Sobre nós</li>
-              <li className="nav-item">Contato</li>
+              <li className="nav-item">
+                <Link
+                  to="whatbuy"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  spy={true}
+                  exact="true"
+                  activeClass="active"
+                >
+                  O que Compramos?
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="howworks"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  spy={true}
+                  exact="true"
+                  activeClass="active"
+                >
+                  Como funciona?
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="aboutus"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  spy={true}
+                  exact="true"
+                  activeClass="active"
+                >
+                  Sobre nós
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  spy={true}
+                  exact="true"
+                  activeClass="active"
+                >
+                  Contato
+                </Link>
+              </li>
             </ul>
           </div>
           <div className={`${styles.divBtn} text-center mb-2 m-md-0`}>

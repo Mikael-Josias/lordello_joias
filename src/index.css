@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -28,4 +29,11 @@ li,
 button {
   font-family: 'Open Sans',
     sans-serif !important;
+}
+
+.active {
+  text-decoration: none;
+  color:
+    #DB9328;
+  transition: all .25s ease-out;
 }

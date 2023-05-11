@@ -1,5 +1,15 @@
 import React from 'react';
 import styles from './WhatWeBuy.module.css';
+import MiniProduct from './MiniProduct';
+import HighlightProduct from './HighlightProduct';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Navigation } from 'swiper';
 
 const WhatWeBuy = () => {
   const products = [
@@ -76,9 +86,10 @@ const WhatWeBuy = () => {
       ],
     },
   ];
+  const [showProduct, setShowProduct] = React.useState(products[0]);
 
   return (
-    <div className="container-xl text-center">
+    <div className="container-xl text-center" id="whatbuy">
       <div className={styles.divMain}>
         <h2>O que compramos?</h2>
         <p>
@@ -86,8 +97,68 @@ const WhatWeBuy = () => {
           estado de conservação
         </p>
         <div className="row justify-content-between align-items-center">
-          <div className="col-12 col-lg-6"></div>
-          <div className="col-12 col-lg-6"></div>
+          <div className="col-12 col-lg-6">
+            <Swiper
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                400: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                576: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                992: {
+                  slidesPerView: 4,
+                  spaceBetween: 50,
+                },
+              }}
+              modules={[Navigation]}
+              className="mySwiper row justify-content-between align-items-center d-flex d-lg-none px-5"
+            >
+              {products.map((product, index) => {
+                return (
+                  <SwiperSlide>
+                    <MiniProduct
+                      active={showProduct.img}
+                      product={product}
+                      index={index}
+                      onClick={() => {
+                        setShowProduct(product);
+                      }}
+                      type={'mobile'}
+                      key={`${product.title}${index}`}
+                    />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+            <div className="d-none d-lg-flex row justify-content-between align-items-center">
+              {products.map((product, index) => {
+                return (
+                  <MiniProduct
+                    active={showProduct.img}
+                    product={product}
+                    index={index}
+                    onClick={() => {
+                      setShowProduct(product);
+                    }}
+                    key={`${product.title}${index}`}
+                  />
+                );
+              })}
+            </div>
+          </div>
+          <div className="col-12 col-lg-6">
+            <HighlightProduct product={showProduct} />
+          </div>
         </div>
       </div>
     </div>
