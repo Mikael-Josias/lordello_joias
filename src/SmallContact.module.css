@@ -1,0 +1,31 @@
+.divMain a {
+  text-decoration: none;
+}
+
+.divIcon {
+  padding: 8px;
+  background-color: #6c6c6c;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  transition: all .25s ease-out;
+}
+
+.divMain:hover .divIcon {
+  background-color: #8f8f8f;
+}
+
+.divIcon img {
+  width: 20px;
+}
+
+.divMain p {
+  margin: 0;
+}
+
+.divMain:hover p {
+  color: #ccc;
+}

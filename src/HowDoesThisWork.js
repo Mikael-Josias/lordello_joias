@@ -5,7 +5,7 @@ import ButtonCustom from './ButtonCustom';
 
 const HowDoesThisWork = () => {
   return (
-    <div className={styles.divMain}>
+    <section className={styles.divMain} id="howworks">
       <div className="container-xl">
         <h2>Como funciona a Avaliação?</h2>
         <div className="row justify-content-center align-items-center">
@@ -34,15 +34,17 @@ const HowDoesThisWork = () => {
             />
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center">
-          <h2>Se interessou?</h2>
-          <p>Entre em contato conosco</p>
+        <div
+          className={`${styles.divContact} d-flex flex-column justify-content-center align-items-center`}
+        >
+          <h2 className="mb-3">Se interessou?</h2>
+          <p>Faça sua avaliação conosco</p>
           <ButtonCustom icon={'whatsapp.svg'} color="orange" link="#">
             Fazer avaliação
           </ButtonCustom>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

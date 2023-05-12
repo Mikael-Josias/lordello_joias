@@ -4,7 +4,7 @@ import ButtonCustom from './ButtonCustom';
 
 const Banner = () => {
   return (
-    <div className={`${styles.banner} position-relative`}>
+    <section className={`${styles.banner} position-relative`}>
       <div className="container-xl h-100">
         <div
           className={`${styles.divMain} row flex-column-reverse flex-lg-row justify-content-between align-items-center`}
@@ -54,7 +54,7 @@ const Banner = () => {
           <span>Role para baixo</span>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

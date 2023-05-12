@@ -89,7 +89,7 @@ const WhatWeBuy = () => {
   const [showProduct, setShowProduct] = React.useState(products[0]);
 
   return (
-    <div className="container-xl text-center" id="whatbuy">
+    <section className="container-xl text-center" id="whatbuy">
       <div className={styles.divMain}>
         <h2>O que compramos?</h2>
         <p>
@@ -156,12 +156,12 @@ const WhatWeBuy = () => {
               })}
             </div>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 mt-3 mt-lg-0">
             <HighlightProduct product={showProduct} />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

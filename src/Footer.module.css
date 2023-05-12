@@ -1,0 +1,81 @@
+.divMain {
+  background-color: #6C6C6C;
+  padding: 64px 0;
+}
+
+.divLogo div {
+  width: 200px;
+  height: 75px;
+  background-color: #404040;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width:992px) {
+  .divMain div+div {
+    margin-top: 24px;
+  }
+}
+
+
+.divLogo p {
+  max-width: 200px;
+  color: #fff;
+}
+
+.divMain h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 16px;
+}
+
+.divMain ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+@media screen and (max-width:992px) {
+  .divMain ul {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.divMain ul li {
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.divMain ul li+li {
+  margin-top: 8px;
+
+}
+
+.divMain ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.divMain ul li a:hover,
+.divMain ul li:hover {
+  color: #ccc;
+}
+
+.divSocial ul {
+  flex-direction: row;
+}
+
+.divSocial ul li+li {
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.divSocial img {
+  height: 24px;
+}

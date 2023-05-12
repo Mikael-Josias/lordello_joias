@@ -1,0 +1,9 @@
+.divMain {
+  background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
+}
+
+@media screen and (max-width:992px) {
+  .divMain {
+    padding-bottom: 64px;
+  }
+}

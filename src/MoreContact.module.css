@@ -1,0 +1,12 @@
+.divMap {
+  width: 100%;
+  background-color: #6C6C6C;
+  height: 250px;
+  border-radius: 16px;
+}
+
+.divMain p {
+  color: #fff;
+  font-size: .9rem;
+  text-align: start;
+}

@@ -1,4 +1,27 @@
 .divMain {
   background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
   padding: 64px 0;
+  margin-bottom: 92px;
+
+}
+
+.divMain h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+
+.divContact h2 {
+  margin-top: 64px;
+}
+
+.divContact h2,
+.divContact p {
+  color: #fff;
+}
+
+.divContact p {
+  font-size: 1.25rem;
 }
