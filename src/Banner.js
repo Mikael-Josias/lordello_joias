@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Banner.module.css';
 import ButtonCustom from './ButtonCustom';
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -49,10 +50,16 @@ const Banner = () => {
       <div
         className={`position-absolute bottom-0 start-50 translate-middle-x d-flex flex-column justify-content-between align-items-center`}
       >
-        <a href="#whatbuy" className={styles.btnScrollDown}>
+        <Link
+          to="whatbuy"
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className={styles.btnScrollDown}
+        >
           <img src="/imgs/scroll-down-icon.svg" alt="" />
           <span>Role para baixo</span>
-        </a>
+        </Link>
       </div>
     </section>
   );

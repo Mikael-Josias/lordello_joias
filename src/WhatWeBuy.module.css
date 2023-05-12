@@ -5,6 +5,7 @@
 .divMain h2 {
   color: #282828;
   margin-bottom: 12px;
+  font-weight: 700;
 }
 
 .divMain h2+p {
