@@ -17,13 +17,26 @@ const Footer = () => {
             <h2>Contato</h2>
             <ul>
               <li>
-                <a href="">Whatsapp: (XX) XXXXX-XXXX</a>
+                <a
+                  href="https://wa.me//5511978712340?text=Olá! Gostaria de falar com a Lordello Joias."
+                  target="_blanck"
+                >
+                  Whatsapp: (11) 97871-2340
+                </a>
               </li>
               <li>
-                <a href="">Email: email@email.com</a>
+                <a href="" target="_blanck">
+                  Email: email@email.com
+                </a>
               </li>
               <li>
-                <a href="">Endereço: Rua Oscar Freire, XX</a>
+                <a
+                  href="https://goo.gl/maps/KBAcBqJVw9MWnobu9"
+                  target="_blanck"
+                >
+                  Endereço: R. Oscar Freire, 144 - Jardim Paulista, SP,
+                  01426-000
+                </a>
               </li>
             </ul>
           </div>
@@ -56,12 +69,18 @@ const Footer = () => {
             <h2>Redes sociais</h2>
             <ul>
               <li>
-                <a href="">
+                <a
+                  href="https://www.instagram.com/lordello.joias/"
+                  target="_blanck"
+                >
                   <img src="/imgs/instagram.svg" alt="instagram icone" />
                 </a>
               </li>
               <li>
-                <a href="">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100091541316392"
+                  target="_blanck"
+                >
                   <img src="/imgs/facebook.svg" alt="facebook icone" />
                 </a>
               </li>

@@ -1,4 +1,4 @@
-.btnOrange {
+/* .btnOrange {
   background-color: #DB9328 !important;
   color: #242424 !important;
   font-weight: 700 !important;
@@ -7,6 +7,21 @@
 .btnOrange:hover {
   background-color: #C9841E !important;
   color: #242424 !important;
+} */
+
+.btn {
+  background-color: #1a4d42 !important;
+  color: #E4BD78 !important;
+  font-weight: 700 !important;
+  transition: all .25s ease-out !important;
 }
 
-.btnOrange img {}
+.btn:hover {
+  background-color: #133d34 !important;
+  color: #bd9348 !important;
+}
+
+.btn.scroll {
+  color: #133d34 !important;
+  background-color: #E4BD78 !important;
+}

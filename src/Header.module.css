@@ -12,7 +12,11 @@
 }
 
 .divMain.scroll {
-  background: linear-gradient(133.93deg, #404040 8.56%, #181818 78.28%);
+  background: #1a4d42;
+}
+
+.brand img {
+  width: 64px;
 }
 
 @media screen and (max-width: 768px) {

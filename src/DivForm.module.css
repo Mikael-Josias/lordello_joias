@@ -11,18 +11,3 @@
 .divMain p {
   color: #fff;
 }
-
-.btn {
-  width: 100%;
-  background-color: #DB9328 !important;
-  color: #242424;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 16px;
-  padding: 10px 16px;
-  transition: all .25s ease-out;
-}
-
-.btn:hover {
-  background-color: #C9841E !important;
-}

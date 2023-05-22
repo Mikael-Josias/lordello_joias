@@ -38,6 +38,6 @@ button {
 .active {
   text-decoration: none;
   color:
-    #DB9328;
+    #E4BD78;
   transition: all .25s ease-out;
 }

@@ -27,8 +27,9 @@ const Header = () => {
     >
       <nav className="navbar navbar-expand-md">
         <div className="container-xl justify-content-between align-items-center">
-          <div>
-            <h1>LOGO</h1>
+          <div className={styles.brand}>
+            <h1 className="visually-hidden">LOGO</h1>
+            <img src="/imgs/logo_lordello_joias.png" alt="" />
           </div>
           <button
             className="navbar-toggler text-white bg-white"
@@ -103,7 +104,12 @@ const Header = () => {
             </ul>
           </div>
           <div className={`${styles.divBtn} text-center mb-2 m-md-0`}>
-            <ButtonCustom icon={'whatsapp.svg'} color="orange" link="#">
+            <ButtonCustom
+              icon={isTop ? 'whatsapp_green.svg' : 'whatsapp.svg'}
+              isTop={isTop}
+              color="orange"
+              link="#"
+            >
               Entrar em contato
             </ButtonCustom>
           </div>

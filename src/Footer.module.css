@@ -1,5 +1,5 @@
 .divMain {
-  background-color: #6C6C6C;
+  background-color: #1a4d42;
   padding: 64px 0;
 }
 
@@ -16,7 +16,6 @@
   }
 }
 
-
 .divLogo p {
   max-width: 200px;
   color: #fff;
@@ -25,7 +24,7 @@
 .divMain h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #2d2d2d;
+  color: #E4BD78;
   margin-bottom: 16px;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './DivForm.module.css';
 import { FloatingLabel, Form } from 'react-bootstrap';
+import ButtonCustom from './ButtonCustom';
 
 const DivForm = () => {
   const refName = React.useRef();
@@ -9,6 +10,7 @@ const DivForm = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
+    alert('form enviado');
   }
 
   return (
@@ -57,9 +59,9 @@ const DivForm = () => {
             ref={refComment}
           />
         </FloatingLabel>
-        <button type="submit" className={`${styles.btn} btn`}>
+        <ButtonCustom bsClass="w-100 mt-3 text-uppercase" btn={true}>
           Enviar
-        </button>
+        </ButtonCustom>
       </form>
     </div>
   );
