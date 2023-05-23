@@ -8,7 +8,7 @@ const HowDoesThisWork = () => {
     Com base no texto que me foi enviado para a seção "Como funciona a avaliação?"
     
     Será colocado os seguintes textos:
-
+  
     Passo 1 (Agendamento): Este passo é simples. Basta entrar em contato conosco para agendar a avaliação da sua joia. Nossa equipe estará pronta para atendê-lo e marcar um dia conveniente para que você possa trazer sua peça.
 
     Passo 2 (Avaliação): No segundo passo, nossos profissionais altamente qualificados em joalheria entrarão em ação. Eles usarão técnicas e métodos precisos, confiáveis e seguros para examinar cuidadosamente sua joia. Independentemente de ser uma peça usada, antiga ou moderna, nossa equipe fará uma análise minuciosa para verificar sua autenticidade e determinar seu valor real.
@@ -24,28 +24,39 @@ const HowDoesThisWork = () => {
       <div className="container-xl">
         <h2>Como funciona a Avaliação?</h2>
         <div className="row justify-content-center align-items-center">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
-              step="1"
+              step="Passo 1 (Agendamento)"
               title={' Lorem ipsum dolor sit amet.'}
               img=""
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sint eaque porro nostrum sed repellendus obcaecati! Repellendus, ratione accusamus. Delectus?"
+              texts={[
+                'Este passo é simples. Basta entrar em contato conosco para agendar a avaliação da sua joia.',
+                'Nossa equipe estará pronta para atendê-lo e marcar um dia conveniente para que você possa trazer sua peça.',
+              ]}
             />
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
-              step="2"
+              step="Passo 2 (Avaliação)"
               title={' Lorem ipsum dolor sit amet.'}
               img=""
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sint eaque porro nostrum sed repellendus obcaecati! Repellendus, ratione accusamus. Delectus?"
+              texts={[
+                'No segundo passo, nossos profissionais altamente qualificados em joalheria entrarão em ação.',
+                'Eles usarão técnicas e métodos precisos, confiáveis e seguros para examinar cuidadosamente sua joia.',
+                'Independentemente de ser uma peça usada, antiga ou moderna, nossa equipe fará uma análise minuciosa para verificar sua autenticidade e determinar seu valor real.',
+              ]}
             />
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
-              step="3"
+              step="Passo 3 (Compra justa)"
               title={' Lorem ipsum dolor sit amet.'}
               img=""
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sint eaque porro nostrum sed repellendus obcaecati! Repellendus, ratione accusamus. Delectus?"
+              texts={[
+                'Quando sua joia for aprovada em nossa avaliação, estaremos prontos para comprá-la de você.',
+                'Valorizamos cada peça e garantimos que você receberá um valor justo por ela.',
+                'Nossa intenção é proporcionar uma transação segura, transparente e confiável',
+              ]}
             />
           </div>
         </div>

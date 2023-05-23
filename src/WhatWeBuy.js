@@ -117,7 +117,7 @@ const WhatWeBuy = () => {
           Compramos joias em geral, sejam peças antigas, modernas e em todo
           estado de conservação
         </p>
-        <div className="row justify-content-between align-items-center">
+        <div className="row justify-content-between align-items-start">
           <div className="col-12 col-lg-6">
             <Swiper
               pagination={{

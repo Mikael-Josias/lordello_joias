@@ -17,7 +17,10 @@ const HighlightProduct = ({ product }) => {
           <div className="row justify-content-between align-items-center">
             {product.accept.map((accept) => {
               return (
-                <div className="col flex-shrink">
+                <div
+                  className="col flex-shrink"
+                  key={product.name + accept.name}
+                >
                   <AcceptLabel text={accept.name} />
                 </div>
               );

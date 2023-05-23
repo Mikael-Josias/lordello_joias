@@ -25,3 +25,10 @@
   color: #133d34 !important;
   background-color: #E4BD78 !important;
 }
+
+@media screen and (max-width: 768px) {
+  .btn {
+    color: #133d34 !important;
+    background-color: #E4BD78 !important;
+  }
+}

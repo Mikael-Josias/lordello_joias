@@ -26,7 +26,7 @@ const Banner = () => {
               </ButtonCustom>
             </div>
           </div>
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-lg-4 mt-5 mt-lg-0">
             <div>
               <div className="d-none d-lg-block">
                 <img src="/imgs/banner_desktop.png" className="w-100" alt="" />

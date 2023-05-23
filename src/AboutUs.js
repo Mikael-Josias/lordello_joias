@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className={styles.divMain}>
         <h2>Sobre nós</h2>
         <AboveImage
-          img=""
+          img="logo_lordello_joias.png"
           side="left"
           title="Nossa história"
           texts={[
