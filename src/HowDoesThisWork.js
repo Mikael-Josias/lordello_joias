@@ -65,7 +65,10 @@ const HowDoesThisWork = () => {
         >
           <h2 className="mb-3">Se interessou?</h2>
           <p>Faça sua avaliação conosco</p>
-          <ButtonCustom icon={'whatsapp.svg'} color="orange" link="#">
+          <ButtonCustom
+            icon={'whatsapp.svg'}
+            link="https://wa.me//5511978712340?text=Olá! Gostaria de falar com a Lordello Joias."
+          >
             Fazer avaliação
           </ButtonCustom>
         </div>

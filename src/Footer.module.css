@@ -1,12 +1,12 @@
 .divMain {
-  background-color: #1a4d42;
+  background-color: #1b4e43;
   padding: 64px 0;
 }
 
 .divLogo div {
   width: 200px;
   height: 75px;
-  background-color: #404040;
+  background: #404040 url(../public/imgs/logo_small_lordello_joias.svg) center/cover no-repeat;
   margin-bottom: 16px;
 }
 

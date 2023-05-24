@@ -29,7 +29,7 @@ const Header = () => {
         <div className="container-xl justify-content-between align-items-center">
           <div className={styles.brand}>
             <h1 className="visually-hidden">LOGO</h1>
-            <img src="/imgs/logo_lordello_joias.png" alt="" />
+            <img src="/imgs/logo_small_lordello_joias.svg" alt="" />
           </div>
           <button
             className="navbar-toggler text-white bg-white"
@@ -108,7 +108,7 @@ const Header = () => {
               icon={isTop ? 'whatsapp_green.svg' : 'whatsapp.svg'}
               isTop={isTop}
               color="orange"
-              link="#"
+              link="https://wa.me//5511978712340?text=Olá! Gostaria de falar com a Lordello Joias."
             >
               Entrar em contato
             </ButtonCustom>

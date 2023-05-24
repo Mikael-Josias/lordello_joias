@@ -7,16 +7,23 @@
 
 @media screen and (max-width: 768px) {
   .divMain {
-    background: #1a4d42;
+    background: #1b4e43;
   }
 }
 
 .divMain.scroll {
-  background: #1a4d42;
+  background: #1b4e43;
 }
 
-.brand img {
-  width: 64px;
+.divMain .brand img {
+  width: 100%;
+  height: 64px;
+  border-radius: 16px;
+  transition: all .25s ease-out;
+}
+
+.divMain.scroll .brand img {
+  height: 48px !important;
 }
 
 @media screen and (max-width: 768px) {

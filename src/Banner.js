@@ -21,7 +21,10 @@ const Banner = () => {
                 compra de joias em ouro, platina, relógios e objetos em prata há
                 mais de 30 anos.
               </p>
-              <ButtonCustom icon={'whatsapp.svg'} color={'orange'} link="#">
+              <ButtonCustom
+                icon={'whatsapp.svg'}
+                link="https://wa.me//5511978712340?text=Olá! Gostaria de falar com a Lordello Joias."
+              >
                 Fazer avaliação
               </ButtonCustom>
             </div>
