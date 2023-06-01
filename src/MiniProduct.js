@@ -11,7 +11,7 @@ const MiniProduct = ({ active, product, index, onClick, type }) => {
         className={`${active === product.img ? styles.active : ''} ${
           styles.divMain
         } ${index > 1 ? 'mt-0 mt-lg-3' : ''}`}
-        style={{ backgroundImage: `url(/imgs/${product.img})` }}
+        style={{ backgroundImage: `url(/imgs/${product.imgBig})` }}
       ></div>
     </div>
   );

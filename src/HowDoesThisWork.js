@@ -27,8 +27,7 @@ const HowDoesThisWork = () => {
           <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
               step="Passo 1 (Agendamento)"
-              title={' Lorem ipsum dolor sit amet.'}
-              img=""
+              img="step_1_img.png"
               texts={[
                 'Este passo é simples. Basta entrar em contato conosco para agendar a avaliação da sua joia.',
                 'Nossa equipe estará pronta para atendê-lo e marcar um dia conveniente para que você possa trazer sua peça.',
@@ -38,8 +37,7 @@ const HowDoesThisWork = () => {
           <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
               step="Passo 2 (Avaliação)"
-              title={' Lorem ipsum dolor sit amet.'}
-              img=""
+              img="step_2_img.png"
               texts={[
                 'No segundo passo, nossos profissionais altamente qualificados em joalheria entrarão em ação.',
                 'Eles usarão técnicas e métodos precisos, confiáveis e seguros para examinar cuidadosamente sua joia.',
@@ -50,8 +48,7 @@ const HowDoesThisWork = () => {
           <div className="col-12 col-md-4 align-self-stretch">
             <StepCard
               step="Passo 3 (Compra justa)"
-              title={' Lorem ipsum dolor sit amet.'}
-              img=""
+              img="step_3_img.png"
               texts={[
                 'Quando sua joia for aprovada em nossa avaliação, estaremos prontos para comprá-la de você.',
                 'Valorizamos cada peça e garantimos que você receberá um valor justo por ela.',

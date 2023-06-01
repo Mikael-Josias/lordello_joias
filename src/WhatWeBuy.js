@@ -35,7 +35,7 @@ const WhatWeBuy = () => {
   */
   const products = [
     {
-      img: 'product_1.png',
+      imgBig: 'ouro_big.jpg',
       title: 'Ouro',
       p: 'Compramos qualquer tipo de peça em ouro, desde anéis e correntes até pulseiras e brincos. Valorizamos cada detalhe, independentemente do estado de conservação ou idade da peça. Nossos profissionais experientes avaliarão minuciosamente suas joias, considerando peso, pureza do metal e design. Garantimos que você receberá o valor justo por suas joias, com transparência e honestidade em nossas negociações.',
       accept: [
@@ -49,7 +49,7 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      img: 'product_2.png',
+      imgBig: 'platina__big.jpg',
       title: 'Platina',
       p: 'Compramos joias em platina de qualquer tipo ou estilo. Nossa equipe especializada avaliará cuidadosamente cada peça, considerando qualidade, peso e características únicas. Oferecemos um serviço profissional e justo, garantindo que você receba o valor adequado pelas suas joias em platina. Valorizamos a transparência e proporcionamos uma transação segura e satisfatória.',
       accept: [
@@ -63,7 +63,7 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      img: 'product_3.png',
+      imgBig: 'prata__big.jpg',
       title: 'Prata',
       p: 'Compramos joias em prata, incluindo anéis, pulseiras, correntes e outros tipos de peças. Valorizamos cada detalhe, desde a qualidade da prata até o design da joia. Nossos profissionais experientes avaliarão minuciosamente suas peças, considerando peso, autenticidade e estado de conservação. Nosso objetivo é garantir que você receba um valor justo pelas suas joias em prata, com as melhores condições de pagamento.',
       accept: [
@@ -80,7 +80,7 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      img: 'product_4.png',
+      imgBig: 'colares_big.jpg',
       title: 'Colares',
       p: 'Compramos colares de diversos tipos, incluindo colares de pérolas, pingentes e correntes. Valorizamos a beleza e singularidade de cada peça, independentemente do estilo ou material. Nossos especialistas em joias avaliarão minuciosamente cada colar, considerando a autenticidade das pérolas, a qualidade dos pingentes e a condição geral do item. Garantimos um valor justo com base nessa avaliação e oferecemos as melhores condições de pagamento. Nosso objetivo é proporcionar uma experiência confiável e satisfatória aos nossos clientes.',
       accept: [
@@ -90,13 +90,13 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      img: 'product_5.png',
+      imgBig: 'aneis_big.jpg',
       title: 'Anéis/Alianças',
       p: 'Compramos anéis e alianças de todos os tipos, desde modelos simples até peças mais elaboradas. Valorizamos a qualidade dos materiais, o design e a autenticidade das gemas, se houver. Nossos profissionais especializados avaliarão cuidadosamente suas peças, considerando seu valor intrínseco. Garantimos um valor justo e oferecemos uma negociação transparente e confiável.',
       accept: [{ name: 'Anéis' }, { name: 'Alianças' }],
     },
     {
-      img: 'product_6.png',
+      imgBig: 'materias_bruto_big.jpg',
       title: 'Materiais Brutos (Ouro/Platina/Prata)',
       p: 'Além de peças de joias prontas, também compramos materiais brutos de ouro, platina e prata. Se você possui lingotes, barras, folhas, fios ou qualquer outro tipo de material bruto, podemos avaliá-lo e oferecer um valor justo com base no peso e no valor do metal. Nossos especialistas em avaliação de materiais brutos estão familiarizados com as especificidades desses metais preciosos e oferecerão uma avaliação precisa e honesta. Garantimos a transparência em nossas negociações e buscamos fornecer as melhores condições de pagamento aos nossos clientes.',
       accept: [
@@ -149,7 +149,7 @@ const WhatWeBuy = () => {
                 return (
                   <SwiperSlide key={`${product.title}${index}`}>
                     <MiniProduct
-                      active={showProduct.img}
+                      active={showProduct.imgBig}
                       product={product}
                       index={index}
                       onClick={() => {
@@ -165,7 +165,7 @@ const WhatWeBuy = () => {
               {products.map((product, index) => {
                 return (
                   <MiniProduct
-                    active={showProduct.img}
+                    active={showProduct.imgBig}
                     product={product}
                     index={index}
                     onClick={() => {
