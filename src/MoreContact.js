@@ -39,8 +39,8 @@ const MoreContact = () => {
         />
         <SmallContact
           icon={'email.svg'}
-          text="email@email.com"
-          link="mailto:email@email.com"
+          text="Lordello.joias@gmail.com"
+          link="mailto:Lordello.joias@gmail.com"
         />
       </div>
     </div>
