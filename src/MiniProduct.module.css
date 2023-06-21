@@ -2,7 +2,7 @@
   background: #bbb url(../public/imgs/product_1.png) center/cover no-repeat;
   height: 184px;
   border-radius: 32px;
-  opacity: .6;
+  opacity: .3;
   cursor: pointer;
   transition: all .25s ease-out;
 }
@@ -10,7 +10,6 @@
 .divMain:hover:not(.divMain.active) {
   opacity: 1;
   background-size: 200%;
-
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

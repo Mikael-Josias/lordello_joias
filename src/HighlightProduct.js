@@ -12,6 +12,7 @@ const HighlightProduct = ({ product }) => {
       <div className={styles.divText}>
         <h3>{product.title}</h3>
         <p>{product.p}</p>
+        {console.log(product)}
         <div>
           <h4>Aceitamos</h4>
           <div className="row justify-content-between align-items-center">

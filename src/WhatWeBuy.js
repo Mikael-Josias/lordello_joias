@@ -50,9 +50,13 @@ const WhatWeBuy = () => {
     },
     {
       imgBig: 'platina__big.jpg',
-      title: 'Platina',
-      p: 'Compramos joias em platina de qualquer tipo ou estilo. Nossa equipe especializada avaliará cuidadosamente cada peça, considerando qualidade, peso e características únicas. Oferecemos um serviço profissional e justo, garantindo que você receba o valor adequado pelas suas joias em platina. Valorizamos a transparência e proporcionamos uma transação segura e satisfatória.',
+      title: 'Brilhantes',
+      p: 'Compramos brilhantes separados, como diamantes, safiras, rubis e esmeraldas, em diferentes cortes e tamanhos. Além disso, adquirimos joias com brilhantes, como anéis, colares, pulseiras e brincos.',
       accept: [
+        { name: 'Diamante' },
+        { name: 'Rubi' },
+        { name: 'Safira' },
+        { name: 'Esmeraldas' },
         { name: 'Anéis' },
         { name: 'Alianças' },
         { name: 'Correntes' },
@@ -63,9 +67,9 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      imgBig: 'prata__big.jpg',
+      imgBig: 'prataria.jpeg',
       title: 'Prata',
-      p: 'Compramos joias em prata, incluindo anéis, pulseiras, correntes e outros tipos de peças. Valorizamos cada detalhe, desde a qualidade da prata até o design da joia. Nossos profissionais experientes avaliarão minuciosamente suas peças, considerando peso, autenticidade e estado de conservação. Nosso objetivo é garantir que você receba um valor justo pelas suas joias em prata, com as melhores condições de pagamento.',
+      p: 'Compramos produtos em prata, como jogos de chá, pratarias e outras peças em geral. Valorizamos cada detalhe, desde a qualidade da prata até o design e a autenticidade dos itens.',
       accept: [
         { name: 'Anéis' },
         { name: 'Alianças' },
@@ -81,18 +85,18 @@ const WhatWeBuy = () => {
     },
     {
       imgBig: 'colares_big.jpg',
-      title: 'Colares',
-      p: 'Compramos colares de diversos tipos, incluindo colares de pérolas, pingentes e correntes. Valorizamos a beleza e singularidade de cada peça, independentemente do estilo ou material. Nossos especialistas em joias avaliarão minuciosamente cada colar, considerando a autenticidade das pérolas, a qualidade dos pingentes e a condição geral do item. Garantimos um valor justo com base nessa avaliação e oferecemos as melhores condições de pagamento. Nosso objetivo é proporcionar uma experiência confiável e satisfatória aos nossos clientes.',
+      title: 'Relógios',
+      p: 'Compramos relógios de todos os tipos e materiais. Valorizamos relógios de luxo, relógios vintage, relógios esportivos e relógios de moda. Seja em ouro, prata, aço inoxidável, titânio ou qualquer outro material, estamos interessados em avaliar e adquirir sua peça.',
       accept: [
-        { name: 'Perolas' },
-        { name: 'Pingentes' },
-        { name: 'Correntes' },
+        { name: 'Relógios de ouro' },
+        { name: 'Relógios de prata' },
+        { name: 'Relógios em geral' },
       ],
     },
     {
       imgBig: 'aneis_big.jpg',
       title: 'Anéis/Alianças',
-      p: 'Compramos anéis e alianças de todos os tipos, desde modelos simples até peças mais elaboradas. Valorizamos a qualidade dos materiais, o design e a autenticidade das gemas, se houver. Nossos profissionais especializados avaliarão cuidadosamente suas peças, considerando seu valor intrínseco. Garantimos um valor justo e oferecemos uma negociação transparente e confiável.',
+      p: 'Compramos anéis e alianças de todos os tipos, desde modelos simples até peças mais elaboradas. Valorizamos a qualidade dos materiais, o design e a autenticidade das gemas, se houver.',
       accept: [{ name: 'Anéis' }, { name: 'Alianças' }],
     },
     {

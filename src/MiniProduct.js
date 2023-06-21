@@ -8,7 +8,7 @@ const MiniProduct = ({ active, product, index, onClick, type }) => {
       onClick={onClick}
     >
       <div
-        className={`${active === product.img ? styles.active : ''} ${
+        className={`${active === product.imgBig ? styles.active : ''} ${
           styles.divMain
         } ${index > 1 ? 'mt-0 mt-lg-3' : ''}`}
         style={{ backgroundImage: `url(/imgs/${product.imgBig})` }}
