@@ -84,7 +84,7 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      imgBig: 'colares_big.jpg',
+      imgBig: 'relogio_big.png',
       title: 'Relógios',
       p: 'Compramos relógios de todos os tipos e materiais. Valorizamos relógios de luxo, relógios vintage, relógios esportivos e relógios de moda. Seja em ouro, prata, aço inoxidável, titânio ou qualquer outro material, estamos interessados em avaliar e adquirir sua peça.',
       accept: [
@@ -94,7 +94,7 @@ const WhatWeBuy = () => {
       ],
     },
     {
-      imgBig: 'aneis_big.jpg',
+      imgBig: 'aneis_big.png',
       title: 'Anéis/Alianças',
       p: 'Compramos anéis e alianças de todos os tipos, desde modelos simples até peças mais elaboradas. Valorizamos a qualidade dos materiais, o design e a autenticidade das gemas, se houver.',
       accept: [{ name: 'Anéis' }, { name: 'Alianças' }],
