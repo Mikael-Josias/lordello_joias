@@ -32,7 +32,7 @@ const ButtonCustom = ({
       >
         <div className="d-flex justify-content-center align-item-center">
           {icon && (
-            <img src={`/imgs/${icon}`} className="me-2" alt="Icone whatsapp" />
+            <img src={`/imgs/${icon}`} className="me-2 btnIcon" alt="Icone whatsapp" />
           )}
           {children}
         </div>

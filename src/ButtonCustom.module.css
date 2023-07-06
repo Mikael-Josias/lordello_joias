@@ -31,4 +31,8 @@
     color: #133d34 !important;
     background-color: #E4BD78 !important;
   }
+
+  .btn img {
+    content: url('/public/imgs/whatsapp_green.svg');
+  }
 }
