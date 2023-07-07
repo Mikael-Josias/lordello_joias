@@ -24,7 +24,7 @@ const HowDoesThisWork = () => {
       <div className="container-xl">
         <h2>Como funciona a Avaliação?</h2>
         <div className="row justify-content-center align-items-center">
-          <div className="col-12 col-md-4 align-self-stretch">
+          <div className={`col-12 col-md-4 align-self-stretch ${styles.rowCard}`}>
             <StepCard
               step="Passo 1 (Agendamento)"
               img="step_1_img.png"
@@ -34,7 +34,7 @@ const HowDoesThisWork = () => {
               ]}
             />
           </div>
-          <div className="col-12 col-md-4 align-self-stretch">
+          <div className={`col-12 col-md-4 align-self-stretch ${styles.rowCard}`}>
             <StepCard
               step="Passo 2 (Avaliação)"
               img="step_2_img.png"
@@ -45,7 +45,7 @@ const HowDoesThisWork = () => {
               ]}
             />
           </div>
-          <div className="col-12 col-md-4 align-self-stretch">
+          <div className={`col-12 col-md-4 align-self-stretch ${styles.rowCard}`}>
             <StepCard
               step="Passo 3 (Compra justa)"
               img="step_3_img.png"
