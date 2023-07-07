@@ -2,7 +2,7 @@
   background: #bbb url(../public/imgs/product_1.png) center/cover no-repeat;
   height: 184px;
   border-radius: 32px;
-  opacity: .3;
+  opacity: .35;
   cursor: pointer;
   transition: all .25s ease-out;
 }

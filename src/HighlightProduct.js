@@ -6,7 +6,7 @@ const HighlightProduct = ({ product }) => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <div
-        className={styles.divImg}
+        className={`${styles.divImg} d-none d-lg-flex`}
         style={{ backgroundImage: `url(/imgs/${product.imgBig})` }}
       ></div>
       <div className={styles.divText}>

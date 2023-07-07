@@ -5,6 +5,7 @@ const MiniProduct = ({ active, product, index, onClick, type }) => {
   return (
     <div
       className={type === 'mobile' ? '' : 'col-12 col-lg-6'}
+      style={{padding: '15px 5px 20px 5px'}}
       onClick={onClick}
     >
       <div

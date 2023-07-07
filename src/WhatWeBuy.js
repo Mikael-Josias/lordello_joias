@@ -125,9 +125,8 @@ const WhatWeBuy = () => {
         <div className="row justify-content-between align-items-start">
           <div className="col-12 col-lg-6">
             <Swiper
-              pagination={{
-                clickable: true,
-              }}
+              slidesPerView={1}
+              spaceBetween={5}
               breakpoints={{
                 400: {
                   slidesPerView: 1,
@@ -181,7 +180,7 @@ const WhatWeBuy = () => {
               })}
             </div>
           </div>
-          <div className="col-12 col-lg-6 mt-3 mt-lg-0">
+          <div className="col-12 col-lg-6 mt-lg-0">
             <HighlightProduct product={showProduct} />
           </div>
         </div>
